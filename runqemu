@@ -1,0 +1,5 @@
+#!/bin/bash
+exec qemu-system-x86_64 hda -net none -m 64 -serial mon:stdio -loadvm start -nographic 2>&1  <<< "\
+$RANDOM
+$(date -u +%s)
+$1"

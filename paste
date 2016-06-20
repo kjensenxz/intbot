@@ -1,0 +1,3 @@
+#!/bin/bash
+# Updated pastebin script by geirha
+curl -F 'f:1=<-' ix.io | head -1
