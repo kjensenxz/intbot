@@ -4,10 +4,12 @@ IRC bot with sandboxed interpreters for Bash (4.2.24(3)) and Perl (5.24.0) with 
 ### Invocation
     ./evalbot.pl config.sample & disown
     # bash:
+    <irc_user> sh> ls /
+    <intbot> irc_user: README  bin  dev  etc  lib  proc  root  tmp
     <irc_user> # ls /
     <intbot> irc_user: README  bin  dev  etc  lib  proc  root  tmp
     # perl:
-    <irc_user> pl 'print "Hello world"'
+    <irc_user> pl> 'print "Hello world"'
     <intbot> irc_user: Hello world
     <irc_user> # perl -e 'print "Hello world"'
     <intbot> irc_user: Hello world
