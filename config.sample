@@ -11,7 +11,7 @@ $owner="joe_dirt";
 $password="";
 
 # The password for nickserv (if registered)
-$nickserv="idxO0knSYPmSQ92JdXuz2D6X1hmjZdsjCRbj9gludQE=";
+$nickserv="";
 
 # The channels to join
 @channels=("#chan1" "#chan2");
