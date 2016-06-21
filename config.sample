@@ -5,13 +5,13 @@ $nick="intbot";
 $server="irc.rizon.net";
 
 # The owner's nick. Evalbot will flood this nick with private messages. 
-$owner="";
+$owner="joe_dirt";
 
 # The passwords for !raw 
 $password="";
 
 # The password for nickserv (if registered)
-$nickserv="";
+$nickserv="idxO0knSYPmSQ92JdXuz2D6X1hmjZdsjCRbj9gludQE=";
 
 # The channels to join
 @channels=("#chan1" "#chan2");
