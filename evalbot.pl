@@ -95,8 +95,8 @@ sub message
 		}
 	}
 	elsif ( $msg =~ /^[!\.]bots\s*/ ){
-		$conn->privmsg($event->to, "[perl/bash] intbot: Bash (4.2.24) and Perl (5.24.0) interpreter");
-		$conn->privmsg($event->to, "https://github.com/kjensenxz/intbot");
+		$conn->privmsg($event->to, "Reporting in! [Perl/Bash] Perl/Bash Interpreter https://github.com/kjensenxz/intbot");
+		$conn->privmsg($event->to, "";)
 	}
 	elsif ( $msg =~ /^[!\.]source\s*/ ){
 		$conn->privmsg($event->to, "https://github.com/kjensenxz/intbot");
